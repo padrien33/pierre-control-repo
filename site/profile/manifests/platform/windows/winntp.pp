@@ -1,3 +1,3 @@
-class profile::platform::windows::homework::ntp { 'winntp':
+class profile::platform::windows::ntp { 'winntp':
     servers => ['time.nist.gov', 'pool.ntp.org'],
   }
