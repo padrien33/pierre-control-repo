@@ -15,3 +15,7 @@ forge "http://forge.puppetlabs.com"
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+mod 'tse-winntp', '1.0.1'
+mod 'puppetlabs-ntp', '6.2.0'
+mod 'puppetlabs-iis', '4.0.0'
+mod 'puppetlabs-apache', '2.0.0'
