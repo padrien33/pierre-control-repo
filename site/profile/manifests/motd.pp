@@ -1,4 +1,4 @@
-class profile::platform::windows::motd {
+class profile::motd {
   class { '::motd':
     content => "
 ===========================================================
