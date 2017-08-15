@@ -1,4 +1,5 @@
 class profile::platform::windows::packages {
+  class { '::packages':
   # CORP PACKAGES
   Package {
     ensure   => installed,
@@ -6,4 +7,5 @@ class profile::platform::windows::packages {
   }
   package { 'googlechrome': }
   package { '7zip': }
+  }
 }
