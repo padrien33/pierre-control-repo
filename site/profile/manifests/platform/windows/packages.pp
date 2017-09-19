@@ -4,4 +4,6 @@ class profile::platform::windows::packages {
     provider => chocolatey,
   }
   package { 'googlechrome': }
+  package { 'notepadplusplus': }
+  package { '7zip': }
 }
