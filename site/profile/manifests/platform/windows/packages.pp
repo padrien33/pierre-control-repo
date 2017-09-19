@@ -1,6 +1,7 @@
 class profile::platform::windows::packages {
- package { 'googlechrome':
-  ensure   => installed,
-  provider => 'chocolatey',
-}
+ Package {
+    ensure   => installed,
+    provider => chocolatey,
+  }
+  package { 'googlechrome': }
 }
