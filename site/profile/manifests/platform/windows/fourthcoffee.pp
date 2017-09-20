@@ -1,4 +1,4 @@
-class fourthcoffee(
+class profile::platform::windows::fourthcoffee(
   $websitename        = 'FourthCoffee',
   $zipname            = 'FourthCoffeeWebSiteContent.zip',
   $sourcerepo         = 'https://github.com/msutter/fourthcoffee/raw/master',
